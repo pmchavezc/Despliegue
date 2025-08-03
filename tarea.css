@@ -1,0 +1,50 @@
+body {
+  background-image: url('hola_mundo.jpg');
+  background-size: cover;             
+  background-position: center;      
+  background-repeat: no-repeat;  
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+	background: gray;
+	padding: 10px;
+}
+
+.centrado {
+	text-align: center;
+	color: white;
+}
+.contenido {
+  flex: 1;
+}
+
+.footer {
+  background-color: gray;
+  color: black
+   padding: 15px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.footer-section {
+  max-width: 250px;
+  margin: 10px;
+}
+
+.footer-derechos {
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
